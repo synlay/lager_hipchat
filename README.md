@@ -3,6 +3,8 @@ Overview
 
 This is a HipChat backend for [Lager](https://github.com/basho/lager) which lets you send Lager logs to HipChat rooms and optionally mention users.
 
+[Travis-CI](http://travis-ci.org/synlay/lager_hipchat) :: [![Build Status](https://travis-ci.org/synlay/lager_hipchat.png)](https://travis-ci.org/synlay/lager_hipchat)
+
 ##Configuration
 Configure a Lager handler like this:
 
