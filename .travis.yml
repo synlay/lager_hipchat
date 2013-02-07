@@ -1,8 +1,8 @@
 language: erlang
-script: "make compile && make test"
 notifications:
   hipchat:
-  	- secure: "Eq98Rr2ggMItuedgcnGlNVzXO7ZDDyEFawdDG5CviIOQVRGeq0dsKYEK7Tmn\nMDFJyYRDZ9s+oXOQYkx796Sn1Qtlthy416hH4ymCCexRg5mLoE3/5P89O2Wr\n9mMQPieV2pmIOplPrwKEWTYTS5OyrjOJW+uWgOVi6gf8iWHsCFk="
+  	rooms:
+  		- secure: "o3woNwxDkeVLHafbumL3W8Ga4SAm3mpi5fcrkr9boBK9jP57T9FidkCAM7Il\nwHTHR9WtdxZY45/0QW68HPfHxWe/jhjrlrQE7StFVTvqKxKhFkyOJvw5zbs+\nBb5FYJorG4Mv82UR2mcyJKIzjQA4Qd910z8V4j+vU6+xdZX5/IA="
 otp_release:
   - R15B02
   - R15B01
