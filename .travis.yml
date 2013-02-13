@@ -1,12 +1,8 @@
 language: erlang
 notifications:
   hipchat:
-  	rooms:
-  		- secure: "o3woNwxDkeVLHafbumL3W8Ga4SAm3mpi5fcrkr9boBK9jP57T9FidkCAM7Il\nwHTHR9WtdxZY45/0QW68HPfHxWe/jhjrlrQE7StFVTvqKxKhFkyOJvw5zbs+\nBb5FYJorG4Mv82UR2mcyJKIzjQA4Qd910z8V4j+vU6+xdZX5/IA="
+    - secure: "kTli2lyPoRjPOn1Ku39Oa+Mv2Tf/0gOei2mJkZfdHdZpcGH1nzoKmUe1Nhwk\nkzMB2XmgwF6PHm3nKpMuU72V6aWDoTEUASIgyqLRsZmqMWBs8pg3BvPg0NbR\nlm7tx4AVLq7CyESJV6XWqdhTAsQnNBCybBnbrtaWtV8jmUI2/HQ="
 otp_release:
   - R15B02
   - R15B01
   - R15B
-  - R14B04
-  - R14B03
-  - R14B02
