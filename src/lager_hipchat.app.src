@@ -24,10 +24,9 @@
 %%
 %% ----------------------------------------------------------------------------
 
-{application, lager_hipchat,
- [
+{application, lager_hipchat, [
   {description, "HipChat backend for Lager"},
-  {vsn, git},
+  {vsn, "0.2.0"},
   {modules, []},
   {applications, [
                   kernel
@@ -38,5 +37,10 @@
                   ,inets
                   ,inet
                  ]},
-  {registered, []}
- ]}.
+  {registered, []},
+  {maintainers, ["David Robakowski"]},
+  {licenses, ["MIT"]},
+  {links, [
+      {"GitHub", "https://github.com/synlay/lager_hipchat"}
+  ]}
+]}.
