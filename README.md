@@ -3,7 +3,7 @@ Overview
 
 This is a HipChat backend for [Lager](https://github.com/basho/lager) which lets you send Lager logs to HipChat rooms and optionally mention users.
 
-[Travis-CI](http://travis-ci.org/synlay/lager_hipchat) :: [![Build Status](https://travis-ci.org/synlay/lager_hipchat.png?branch=develop)](https://travis-ci.org/synlay/lager_hipchat)
+[Travis-CI](http://travis-ci.org/synlay/lager_hipchat) :: [![Build Status](https://travis-ci.org/synlay/lager_hipchat.svg?branch=develop)](https://travis-ci.org/synlay/lager_hipchat)
 
 ##Configuration
 Configure a Lager handler like this:
@@ -25,7 +25,3 @@ Example:
 	{lager_hipchat_backend, ["3a45v433a44...", "ErrorLog", "lager_hipchat", red, [bob, "alice"], true, error, 5, 3]}
 
 See [Lager's documentation](https://github.com/basho/lager/blob/master/README.org#configuration) for futher information on handler configuration.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/synlay/lager_hipchat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
