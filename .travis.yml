@@ -1,3 +1,7 @@
+before_install:
+  - wget https://s3.amazonaws.com/rebar3/rebar3
+  - chmod u+x ./rebar3
+install: "true"
 language: erlang
 notifications:
   hipchat:
@@ -10,4 +14,6 @@ otp_release:
   - R16B03-1
   - R16B01
   - R15B03
-script: "make ci"
+env:
+  - REBAR3=true
+script: "make travis_ci"
