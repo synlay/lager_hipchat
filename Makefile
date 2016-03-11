@@ -1,4 +1,4 @@
-.PHONY: compile clean distclean test
+.PHONY: compile clean distclean test release
 
 all: compile
 
@@ -13,3 +13,6 @@ distclean: clean
 
 test:
 	@rebar3 eunit
+
+release:
+	@rebar3 release
