@@ -1,16 +1,20 @@
-all: deps compile
+REBAR3 = ./rebar3
+
+.PHONY: compile clean distclean test release
+
+all: compile
 
 compile:
-	./rebar compile
-
-deps:
-	./rebar get-deps
+	@$(REBAR3) compile
 
 clean:
-	./rebar clean
+	@$(REBAR3) clean
 
 distclean: clean
-	./rebar delete-deps
+	@rm -rf _build
 
 test:
-	./rebar eunit
+	@$(REBAR3) eunit
+
+release:
+	@$(REBAR3) release
