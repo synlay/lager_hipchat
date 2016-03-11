@@ -35,7 +35,6 @@
                   ,public_key
                   ,ssl
                   ,inets
-                  ,inet
                  ]},
   {registered, []},
   {maintainers, ["David Robakowski"]},

@@ -1,6 +1,6 @@
 REBAR3 = ./rebar3
 
-.PHONY: compile clean distclean test release
+.PHONY: compile clean distclean test release dialyzer ci
 
 all: compile
 
@@ -13,8 +13,13 @@ clean:
 distclean: clean
 	@rm -rf _build
 
+ci: test dialyzer
+
 test:
 	@$(REBAR3) eunit
+
+dialyzer:
+	@$(REBAR3) dialyzer
 
 release:
 	@$(REBAR3) release
