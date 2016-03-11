@@ -1,8 +1,2 @@
-[{<<"goldrush">>,
-  {git,"git://github.com/DeadZen/goldrush.git",
-       {ref,"212299233c7e7eb63a97be2777e1c05ebaa58dbe"}},
-  1},
- {<<"lager">>,
-  {git,"git://github.com/basho/lager",
-       {ref,"b2cb2735713e3021e0761623ff595d53a545438e"}},
-  0}].
+[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.7">>},1},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.0.2">>},0}].
