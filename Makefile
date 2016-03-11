@@ -1,18 +1,20 @@
+REBAR3 = ./rebar3
+
 .PHONY: compile clean distclean test release
 
 all: compile
 
 compile:
-	@rebar3 compile
+	@$(REBAR3) compile
 
 clean:
-	@rebar3 clean
+	@$(REBAR3) clean
 
 distclean: clean
 	@rm -rf _build
 
 test:
-	@rebar3 eunit
+	@$(REBAR3) eunit
 
 release:
-	@rebar3 release
+	@$(REBAR3) release
