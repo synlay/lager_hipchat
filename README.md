@@ -3,7 +3,7 @@ Overview
 
 This is a HipChat backend for [Lager](https://github.com/basho/lager) which lets you send Lager logs to HipChat rooms and optionally mention users.
 
-[![Build Status](https://travis-ci.org/synlay/lager_hipchat.svg?branch=develop)](https://travis-ci.org/synlay/lager_hipchat) [![Hex.pm](https://img.shields.io/hexpm/v/lager_hipchat.svg)](https://hex.pm/packages/lager_hipchat)
+[![Build Status](https://travis-ci.org/synlay/lager_hipchat.svg?branch=develop)](https://travis-ci.org/synlay/lager_hipchat) [![Coverage Status](https://coveralls.io/repos/github/synlay/lager_hipchat/badge.svg?branch=develop)](https://coveralls.io/github/synlay/lager_hipchat?branch=develop) [![Hex.pm](https://img.shields.io/hexpm/v/lager_hipchat.svg)](https://hex.pm/packages/lager_hipchat) [![GitHub license](https://img.shields.io/github/license/synlay/lager_hipchat.svg)](https://github.com/synlay/lager_hipchat)
 
 ##Configuration
 Configure a Lager handler like this:
