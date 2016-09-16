@@ -26,7 +26,7 @@
 
 {application, lager_hipchat, [
   {description, "HipChat backend for Lager"},
-  {vsn, "0.2.0"},
+  {vsn, "0.2.1"},
   {modules, []},
   {applications, [
                   kernel

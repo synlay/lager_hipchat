@@ -25,3 +25,7 @@ Example:
 	{lager_hipchat_backend, ["3a45v433a44...", "ErrorLog", "lager_hipchat", red, [bob, "alice"], true, error, 5, 3]}
 
 See [Lager's documentation](https://github.com/basho/lager/blob/master/README.org#configuration) for futher information on handler configuration.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/synlay/lager_hipchat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
