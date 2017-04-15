@@ -29,3 +29,7 @@ See [Lager's documentation](https://github.com/basho/lager/blob/master/README.or
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/synlay/lager_hipchat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/synlay/lager_hipchat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
